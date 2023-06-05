@@ -1,5 +1,5 @@
 # Vermont-Water-Quality
-Model to estimate nitrogen and phosphorus for a given Vermont coordinate, address, or body of water.
+Model to investigate and estimate nitrogen and phosphorus for a given Vermont coordinate, address, or body of water.
 
 TO USE:
 
