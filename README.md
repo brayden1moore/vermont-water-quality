@@ -4,8 +4,8 @@ Model to estimate nitrogen and phosphorus for a given Vermont coordinate, addres
 TO USE:
 
 * Download git repository.
-* Create a .py or .ipynb the folder, and import vermont-water-quality as vwq.
-* Call the <code>estimate()</code> method with a coordinate tuple, a body of water name string, or an address string as the <code>search</code> argument.
+* Create a .py or .ipynb the folder, and <code>import vermont-water-quality as vwq</code>.
+* Call the <code>vmq.estimate()</code> method with a coordinate tuple, a body of water name string, or an address string as the <code>search</code> argument.
 * Add <code>n_estimators</code> or <code>max_depth</code> to your arguments to alter the GradientBoostingRegressor's hyperparameters. Defaults are 100 and 1000, respectively.
 
 Parcel data sourced from https://geodata.vermont.gov/datasets/09cf47e1cf82465e99164762a04f3ce6_0/explore?location=43.864753%2C-72.459770%2C8.93
