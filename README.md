@@ -5,8 +5,8 @@ TO USE:
 
 * Download git repository.
 * Create a .py or .ipynb the folder, and import vermont-water-quality as vwq.
-* Call the <code>estimate()<code> method with a coordinate tuple, a body of water name string, or an address string as the argument.
-* Add '''n_estimators''' or '''max_depth''' to your arguments to alter the GradientBoostingRegressor's hyperparameters.
+* Call the <code>estimate()</code> method with a coordinate tuple, a body of water name string, or an address string as the argument.
+* Add <code>n_estimators</code> or <code>max_depth</code> to your arguments to alter the GradientBoostingRegressor's hyperparameters.
 
 Parcel data sourced from https://geodata.vermont.gov/datasets/09cf47e1cf82465e99164762a04f3ce6_0/explore?location=43.864753%2C-72.459770%2C8.93
 <br>
