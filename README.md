@@ -4,7 +4,7 @@ Model to investigate and estimate nitrogen and phosphorus for a given Vermont co
 TO USE:
 
 * Download git repository.
-* Create a .py or .ipynb the folder, and <code>import vermont-water-quality as vwq</code>.
+* Create a .py or .ipynb file in the folder, and <code>import vermont-water-quality as vwq</code>.
 * Call the <code>vmq.estimate()</code> method with a coordinate tuple, a body of water name string, or an address string as the <code>search</code> argument.
 * Add <code>n_estimators</code> or <code>max_depth</code> to your arguments to alter the GradientBoostingRegressor's hyperparameters. Defaults are 100 and 1000, respectively.
 
