@@ -1,7 +1,7 @@
 # Vermont-Water-Quality
 Model to investigate and estimate nitrogen and phosphorus for a given Vermont coordinate, address, or body of water.
 
-## To Use:
+## To Use
 
 * Clone git repository.
 * Create a .py or .ipynb file in the folder, and <code>import vermont-water-quality as vwq</code>.
